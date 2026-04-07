@@ -165,6 +165,21 @@
         
              src="./images/images.png/milk-chocolate@x1.png" alt="Milk chocolate" class="ingredients-image" />
             <h3 class="ingredients-item-title white">Milk chocolate</h3>
+            
+            <div class="overlay">
+              <h3 class="overlay-title">Milk chocolate</h3>
+              
+              <ul class="overlay-button-list">
+                <li class="overlay-button-item">
+                  <button class="name-overlay-button" type="button">chocolate</button>
+                </li>
+                 <li class="overlay-button-item"> 
+                  <button class="benefit-overlay-button" type="button">benefits</button>
+                </li>
+               </ul>
+               <p class="overlay-text">Milk chocolate is a solid chocolate confectionery containing cocoa, sugar and milk. It is the most consumed type of chocolate. Chocolate was originally sold and consumed as a beverage in pre-Columbian times. Although four-fifths of all milk chocolate is sold in the United States and Europe.</p>
+
+            </div>
           </li>
           <li class="ingredients-list-item white-item">
             <img width="224" height="171px" srcset="./images/images.png/milk@x1.png 1x
@@ -172,6 +187,21 @@
             src="./images/images.png/milk@x1.png" alt="Nuts" class="ingredients-image" />
             
            <h3 class="ingredients-item-title">Milk</h3>
+
+           <div class="overlay">
+              <h3 class="overlay-title">Milk</h3>
+              
+              <ul class="overlay-button-list">
+                <li class="overlay-button-item">
+                  <button class="name-overlay-button" type="button">milk</button>
+                </li>
+                 <li class="overlay-button-item"> 
+                  <button class="benefit-overlay-button" type="button">benefits</button>
+                </li>
+               </ul>
+               <p class="overlay-text">Milk is a white liquid food produced by the mammary glands of mammals. It is the primary source of nutrition for young mammals (including breastfed human infants) before they are able to digest solid food.Early-lactation milk, which is called colostrum, contains antibodies that strengthen the immune system.</p>
+
+            </div>
           </li>
           <li class="ingredients-list-item dark-item" >
             <img width="224" height="171px" srcset="./images/images.png/nuts@x1.png 1x
@@ -180,14 +210,44 @@
             
             <h3 class="ingredients-item-title white">Nuts</h3>
            
+            <div class="overlay">
+              <h3 class="overlay-title">Nuts</h3>
+              
+              <ul class="overlay-button-list">
+                <li class="overlay-button-item">
+                  <button class="name-overlay-button" type="button">nuts</button>
+                </li>
+                 <li class="overlay-button-item"> 
+                  <button class="benefit-overlay-button" type="button">benefits</button>
+                </li>
+               </ul>
+               <p class="overlay-text">Almonds, pistachios, and walnuts are some types of nuts that contain healthy nutrients. When eaten as part of a nutrient-dense diet, these 9 nuts may offer benefits such as reducing your risk of heart disease. They’re a good source of fiber, healthy fats, and plant protein. Plus, they’re great on their own.</p>
+
+            </div>
+            
           </li>
           <li class="ingredients-list-item white-item">
             <img width="224" height="171px" srcset="./images/images.png/semi-sweet-chocolate@x1.png 1x
             ./images/images.png/semi-sweet-chocolate@x2 2x"
              src="./images/images.png/semi-sweet-chocolate@x1.png" alt="Semi-sweet chocolate" class="ingredients-image" />
             <h3 class="ingredients-item-title">Semi-sweet chocolate</h3>
-          </li>
-        </ul>
+
+             <div class="overlay">
+              <h3 class="overlay-title">Semi - sweet chocolate</h3>
+              
+              <ul class="overlay-button-list">
+                <li class="overlay-button-item">
+                  <button class="name-overlay-button" type="button">sweet chocolate</button>
+                </li>
+                 <li class="overlay-button-item"> 
+                  <button class="benefit-overlay-button" type="button">benefits</button>
+                </li>
+               </ul>
+               <p class="overlay-text">Semi-sweet chocolate has a cocoa solid content of 35 to 65%. One of the best ways to gain an understanding of this type of chocolate is to compare it to a different type of chocolate. Semisweet is darker than milk chocolate. In a taste comparison, it has a slightly bitter taste whereas milk chocolate is sweeter.</p>
+
+            </div>
+         
+       
        
          </div>
         </section>
@@ -283,6 +343,7 @@
     <footer>
       <section class="footer-section">
         <div class="container">
+<div class="first-wrapper">
             <h2 class="footer-title"><span>Chocolate</span> a delicious cure for a bad day</h2>
 
             <address>
@@ -293,19 +354,21 @@
                 <li><a href="mailto:simplycthoc@gmail.com" class="address-link">simplycthoc@gmail.com</a></li>
               </ul>
             </address>
+            </div>
+            <div class="second-wrapper">
                   <nav>
           <ul class="footer-nav-list">
             <li class="footer-nav-list-item">
               <a class="footer-nav-list-link" href="">Home</a>
             </li>
             <li class="footer-nav-list-item">
+              <a class="footer-nav-list-link" href="">How it`s made</a>
+            </li>
+            <li class="footer-nav-list-item">
               <a class="footer-nav-list-link" href="">Our products</a>
             </li>
             <li class="footer-nav-list-item">
               <a class="footer-nav-list-link" href="">Top sellers</a>
-            </li>
-            <li class="footer-nav-list-item">
-              <a class="footer-nav-list-link" href="">Home</a>
             </li>
             <li class="footer-nav-list-item">
               <a class="footer-nav-list-link" href="">Chocolate is loved</a>
@@ -320,7 +383,73 @@
           <button class="footer-subscribe-button" type="submit">Subscribe</button>
         </form>
         </div>
+        </div>
       </section>
     </footer>
+
+    <!-- Modal overlay -->
+     <div class="modal-overlay">
+      <div class="modal">
+        <span class="button-span">
+        <button class="dagger-button" type="button"></button>
+        <svg class="dagger-svg" width="24px" height="24">
+          <use href="./images/images.svg/icons.svg#icon-dagger"></use>
+         
+        </svg>
+         </span>
+         <fieldset novalidate>
+  <legend class="modal-title">leave a review <br>
+about  <span>our chocolate</span></legend>
+<div class="fieldset-container">
+<label class="input-label"> Name
+  <span class="input-container"> <svg class="input-svg" width="17" height="17">
+    <use href="./images/images.svg/icons.svg#icon-user"></use>
+  </svg>
+ <input type="text" name="name" required autofocus></span>
+  
+</label>
+<label  class="input-label">Email
+  <span class="input-container">
+     <svg class="input-svg" width="17" height="17">
+    <use href="./images/images.svg/icons.svg#icon-mail"></use>
+  </svg>
+<input type="email" name="email" required>
+  </span>
+ 
+</label>
+<label class="input-label" >Phone number
+  <span class="input-container">
+     <svg class="input-svg" width="17" height="17">
+    <use href="./images/images.svg/icons.svg#icon-tel"></use>
+  </svg>
+  <input type="tel" name="tel" required>
+  </span>
+ 
+</label>
+<label class="input-label">Comment
+
+  <textarea name="comment" placeholder="Enter text"></textarea>
+  
+</label>
+</div>
+
+<label class="checkbox-label" >
+  
+  <input type="checkbox" name="checkbox">
+  <span class="checkmark-span">
+    <svg class="checkmark-modal-svg" width="20" height="20">
+      <use href="./images/images.svg/icons.svg#icon-checkmark"></use>
+    </svg>
+  </span>
+  <span class="checkbox-text-container">
+    <p class="checkbox-text">I accept the terms and conditions of the</p>
+    <a href=""> Privacy Policy</a>
+  </span>
+</label>
+
+
+</fieldset>
+      </div>
+     </div>
   </body>
 </html>
